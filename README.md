@@ -1,7 +1,7 @@
 ### Software AG generic tools
-This is a collection of generic tools that can be used with or without Software AG products.
+This is a collection of generic tools that can be used together with Software AG products or as standalone tools.
 
-- [base64](base64) - [This base64 encoding tool](https://github.com/SoftwareAG/generic-tools/releases) can be used to encode any character string. The string is taken from the standard input which allows the use of any printable character regardless of the underlying command interpreter. It can be used with any UNIX shell or Windows Command Prompt. For example, it can be used to encode a password containing special characters such as the ampersand which is hard to escape in Windows Command Prompt, then the encoded password can be passed to the Command Central bootstrapper.
+- [base64](base64) - [This base64 encoding tool](https://github.com/SoftwareAG/generic-tools/releases) can be used to encode any character string. The string is taken from the standard input, which allows the use of any printable character regardless of the underlying command interpreter. You can use base64 with any UNIX shell or Windows Command Prompt. For example, you can encode a password that contains special characters, such as ampersand (`&`), which is hard to escape in Windows Command Prompt. You can pass the encoded passwords to the Command Central bootstrapper.
 
 ***
 
