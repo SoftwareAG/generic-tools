@@ -35,7 +35,7 @@ int main(int argc, char **argv)
 
 	boost::beast::detail::base64::encode(result_buf, input.c_str(), input.size());
 
-	std::cout << "Result: ";
+	std::cout << std::endl << "Result: ";
 	std::cout << result_buf << std::endl;
 
 	delete result_buf;
